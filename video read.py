@@ -9,7 +9,7 @@ while True:
     cv2.imshow("video frame",frame)
 
     key_pressed=cv2.waitKey(1) & 0xFF
-    if key_pressed== ord('p'):
+    if key_pressed== ord('q'):
         break
 cap.release()
 cv2.destroyAllWindows()
